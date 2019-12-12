@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+	<link rel="stylesheet" type="text/css" href="style/all.css">
+</head>
+<body>
+
+
+	<div class="modal" id="modal" >
+		<div onclick="hideModal()" class="modal_backdrop" ></div>
+		<img onclick="hideModal()" class="modal_close" src="images/close.png">
+		<div class="modal_content" >
+			<img id="modal_image" src="">
+		</div>
+	</div>
+
+	<section class="header">
+		
+			<div class="header_menu">
+				<a class="header_link" href="">главная</a>
+				<a class="header_link" href="#about">о нас</a>
+				<a class="header_link" href="#gallery">портфолио</a>
+				<a class="header_link" href="#service">сервис</a>
+				<a class="header_link" href="#contacts">контакты</a>
+				<div class="search" >
+					<img src="images/search.png">
+					<input class="search_input" type="text" placeholder="Поиск..." >
+
+				</div>
+			</div>
+		<!-- </div> -->
+
+		<div class="header_mobile" >
+			<div class="header_mobile_top" >
+				<img id="menuImg" src="images/menu.png">
+			</div>
+
+			<div class="header_mobile_nav" id="menu" >
+				<a class="header_link" href="">главная</a>
+				<a class="header_link" href=""> о нас</a>
+				<a class="header_link" href="">портфолио</a>
+				<a class="header_link" href="">сервис</a>
+				<a class="header_link" href="">контакты</a>
+			</div>
+
+		</div>
+
+		<div class="header_texts" >
+			<div class="header_title" >Magic in the Palm</div>
+			<div class="header_subtitle" > Воздушные шары в Алматы </div>
+		</div>
+
+	</section>
+
+
+	<section class="block about" id="about">
+		<div class="left_block">
+			<div class="block_title">
+				<div> Восхитительное Качество </div>
+			</div>
+
+			<p>Воздушные шары – это одно из самых ярких украшений любого современного праздника, юбилея или торжества. Помещение или фасад здания, украшенные разноцветными шарами различной формы, сразу приобретает особый внешний вид и привлекает восторженные взгляды прохожих. Именно поэтому, планируя проведение свадьбы, корпоративной вечеринки или большого приема гостей по другому поводу, благоразумные люди обязательно выделяют средства, чтобы купить шары в нашей компании, известной как в самом городе, так и далеко за его пределами.</p>
+		</div>
+
+		<div class="central_block" >
+			<img class="block_image" src="images/54.png">
+		</div>
+
+		<div class="right_block">
+			<div class="block_title_r">
+				<div> Радость Всем </div>
+			</div>
+			<p>Шарики купить которые вы можете в нашем интернет-магазине абсолютно безвредны для здоровья и соответствуют всем международным сертификатам качества. Специалисты нашей компании будут рады проконсультировать вас по вопросам и возможностям доставки, хранения и срока эксплуатации воздушных шаров. В нашем магазине вы всегда можете воздушные шарики купить как за наличный, так и за безналичный расчет. Вопросы транспортировки заказа также можно выбрав один из наиболее подходящих именно вам вариантов (доставка, самовывоз).</p>
+		</div>
+		
+	</section>
+
+
+	<section class="gallery" id="gallery">
+		<div class="gallery_item" style="background-image: url(images/gallery/1.png)">
+			<div onclick="showModal(event)" class="gallery_overlay">
+				<span> Набор из 100 разноцветных шаров <br> 33990тг </span>
+				
+			</div>
+			
+		</div>
+
+		<div class="gallery_item" style="background-image: url(images/gallery/2.png)">
+			<div onclick="showModal(event)" class="gallery_overlay">
+				<span> - 4 серебряных фольгированных звезды
+                       <br>- 3 белых фольгированных звезды
+                       <br>- 3 изумрудных фольгированных звезды <br> 11000тг </span>
+				
+			</div>
+			
+		</div>
+
+		<div class="gallery_item" style="background-image: url(images/gallery/3.png)">
+			<div onclick="showModal(event)" class="gallery_overlay">
+				<span> - 3 золотых фольгированных звезды, ширина 30 см
+                      <br> - 5 сиреневых шаров, диаметр 30 см
+                      <br> - 3 прозрачных шара с конфетти, диаметр 30 см
+                      <br> - гирлянда <br> 6750тг </span>
+				
+			</div>
+			
+		</div>
+
+		<div class="gallery_item" style="background-image: url(images/gallery/4.png)">
+			<div onclick="showModal(event)" class="gallery_overlay">
+				<span> - Фигура бутылочки, высота 70 см
+                      <br> - голубой фольгированный круг, диаметр 30 см
+                      <br> - 4 прозрачных шара в белый горох, диаметр 30 см <br> 8300тг </span>
+				
+			</div>
+			
+		</div>
+
+		<div class="gallery_item" style="background-image: url(images/gallery/5.png)">
+			<div onclick="showModal(event)" class="gallery_overlay">
+				<span> 20 красных шаров в форме сердца, диаметр 30 см
+                       <br> 8990тг </span>
+				
+			</div>
+			
+		</div>
+
+		<div class="gallery_item" style="background-image: url(images/gallery/6.png)">
+			<div onclick="showModal(event)" class="gallery_overlay">
+				<span> - Фигура бутылочки, высота 70 см
+                   <br> - 2 белых шара в форме сердца, диаметр 30 см
+                   <br>   - 4 перламутровых розовых шара, диаметр 30 см
+                   <br>   - 1 прозрачный шар с конфетти, диаметр 30 см <br> 7070тг </span>
+				
+			</div>
+			
+		</div>
+
+<!-- 		<div class="modal" id="modal" >
+		<div onclick="hideModal()" class="modal_backdrop" ></div>
+		<img onclick="hideModal()" class="modal_close" src="images/close.png">
+		<div class="modal_content" >
+			<img id="modal_image" src="">
+		</div>
+	</div> -->
+
+
+	</section>
+
+	<section class="service" id="service">
+		<div class="service_item">
+			<img src="images/balloons.png">
+			<span class="service_title">Поможем собрать стильный <br> букет из шаров</span>
+			
+		</div>
+		<div class="service_item">
+			<img src="images/wallet1.png">
+			<span class="service_title">Уложимся в рамки <br> вашего бюджета</span>
+			
+		</div>
+		<div class="service_item">
+			<img src="images/truck.png">
+			<span class="service_title">Доставка <br> до вашей двери </span>
+		</div>
+		
+	</section>
+
+	<section class="block contacts" id="contacts">
+		<div class="left_block">
+			<!-- <img src="images/55.png"> -->
+
+			<div class="contacts_item" >
+				<img src="images/phone.png">
+				<span>+7 777 385 00 17</span>
+			</div>
+			<div class="contacts_item" >
+				<img src="images/message.png">
+				<span>ekhustochka@gmail.com</span>
+			</div>
+			<div class="contacts_item" >
+				<img src="images/location.png">
+				<span>Тургут Озала 71 <br> Алматы </span>
+			</div>
+			<div class="contacts_item">
+				<img src="images/instagram.png">
+				<!-- <span> @magicinthepalm </span> -->
+				<a href="https://instagram.com/magicinthepalm?utm_source=ig_profile_share&igshid=y0wznrrx40gn"> @magicinthepalm </a>
+			</div>
+			
+		</div>
+
+		<div class="right_block">
+		
+			<form>
+				<div class="contacts_inputs" >
+					<input type="" placeholder="Имя:" name="имя">
+					<input type="" name="email" placeholder="Email:" >
+				</div>
+				<input type="" name="тема" placeholder="Тема:" >
+				<textarea name="сообщение" placeholder="Сообщение:" ></textarea>
+				<button> Отправить </button>
+			</form>
+			<!-- <button> Отправить </button> -->
+		</div>
+		
+	</section>
+
+	<div class="scrollTop" id="scroll" onclick="goToTop()" >
+		<img src="images/up.png">
+	</div>
+
+	<script src="script/vendor/jquery.3.3.1.js" ></script>
+	<script src="script/components/menu.js" ></script>
+	<script src="script/components/scrollTop.js"></script>
+	<script src="script/components/modal.js" ></script>
+
+	<script>
+		var btn = document.getElementById('mailbutton');
+		// var spnnr = document.getElementById('spinner');
+		var inputs = document.getElementsByTagName('input');
+		var txtarea = document.getElementsByTagName('textarea');
+
+		$('#myform').on('submit', function( event ){
+			event.preventDefault();
+
+			btn.style.display = "none";
+			spnnr.style.display = "block";
+
+			var d = $(this).serialize();
+
+			$.ajax({
+				url: 'sendmail.php',
+				type: 'post',
+				data: d,
+				success: function(){
+					btn.style.display = "block";
+					spnnr.style.display = "none";
+
+					for(var i=0; i<inputs.length; i++){
+						inputs[i].value = '';
+					}
+
+					for(var i=0; i<txtarea.length; i++){
+						txtarea[i].value = '';
+					}
+				},
+				fail: function(){
+					alert('Fail');
+				}
+			});
+
+		});
+
+	</script>
+
+</body>
+</html>

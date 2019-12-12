@@ -1,0 +1,183 @@
+.header{
+	width: 100%;
+	height: 100vh;
+	background-image: url(../../images/33.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.header_mobile{
+	display: none;
+}
+
+.header_nav{
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	height: 100px;
+	align-items: center;
+	padding: 0 5%;
+}
+
+.header_menu{
+	display: flex;
+	height: 100%;
+	align-items: center;
+}
+
+.header_menu{
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	height: 100px;
+	align-items: center;
+	padding: 0 5%;
+
+
+}
+
+.header_link{
+	color: #FFE4E1;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 15px;
+	/*background:#fff;*/
+	/*font-style: url('https://fonts.googleapis.com/css?family=Kurale')*/
+
+}
+
+.header_link:hover{
+	color: #ffffff;
+}
+
+.header_texts{
+	position: relative;
+	height: calc(100% - 100px);
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	padding: 0 5%;
+	color: #FFE4E1;
+	font-weight: 700px;
+
+}
+
+.header_title{
+	font-size: 90px;
+
+}
+
+.header_subtitle{
+	font-size: 70px;
+}
+
+
+.search > img{
+	width: 23px;
+}
+
+
+.search{
+	position: relative;
+	height: 25%;
+	align-items: center;
+	
+}
+
+.search_input{
+	position: absolute;
+	right: 0;
+	top: 150%;
+	padding: 8px;
+	background-color: rgba(255, 255, 255, 0.5);
+	color: #fff;
+	font-size: 13px;
+	border: none;
+	outline: 1px solid #fff;
+	outline-offset: 2px;
+	display: none;
+}
+
+.search_input::placeholder{
+	color: #fff;
+}
+
+.search:hover .search_input{
+	display: block;
+}
+
+.search_input:focus{
+	display: block;
+}
+
+@media (max-width: 768px){
+
+	.header_title{
+		font-size: 100px;
+	}
+
+	.header_subtitle{
+		font-size: 50px;
+	}
+
+}
+
+@media (max-width: 449px){
+
+	.header_menu{
+		display: none;
+	}
+
+	.header_nav{
+		display: none;
+	}
+
+	.header_title{
+		font-size: 50px;
+		margin-bottom: 20px;
+	}
+
+	.header_subtitle{
+		font-size: 35px;
+	}
+
+	.header_mobile{
+		display: block;
+		position: relative;
+		width: 100%;
+	}
+
+	.header_mobile_top{
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		padding: 0 5%;
+		height: 70px;
+		align-items: center;
+		box-sizing: border-box;
+	}
+
+	.header_mobile_top > img{
+		width: 30px;
+	}
+
+	.header_mobile_nav{
+		position: absolute;
+		width: 100%;
+		background-color: #000;
+		z-index: 1;
+		display: none;
+	}
+
+	.header_mobile_nav > .header_link{
+		display: block;
+		width: 100%;
+		height: 40px;
+		text-align: center;
+		line-height: 40px;
+	}
+
+}

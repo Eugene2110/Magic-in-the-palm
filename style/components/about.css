@@ -1,0 +1,36 @@
+.about{
+	padding: 100px 0;
+	
+}
+
+.about_image{
+	width: 20%;
+	float: right;
+	border-radius: 30px;
+}
+
+@media (max-width: 768px){
+
+	.about_image{
+		width: 100%;
+	}
+
+}
+
+@media (max-width: 449px){
+
+	.about{
+		flex-wrap: wrap;
+		padding: 100px 5%;
+		box-sizing: border-box;
+	}
+
+	.about .left_block, .about .central_block, .about .right_block{
+		width: 100%;
+	}
+
+	.block_title > div{
+		font-size: 25px;
+	}
+
+}

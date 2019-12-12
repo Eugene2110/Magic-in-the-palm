@@ -1,0 +1,19 @@
+.block{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+
+}
+
+.left_block{
+	width: 33.3%;
+	
+}
+
+.central_block{
+	width: 26%;	
+}
+
+.right_block{
+	width: 33.3%;	
+}

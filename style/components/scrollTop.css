@@ -1,0 +1,13 @@
+.scrollTop{
+	position: fixed;
+	width: 50px;
+	bottom: 20px;
+	right: 10px;
+	display: none;
+	
+}
+
+.scrollTop > img{
+	width: 50%;
+
+}

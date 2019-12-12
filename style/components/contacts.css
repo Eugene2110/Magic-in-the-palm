@@ -1,0 +1,92 @@
+.contacts{
+	width: 100%;
+	background-image: url('../../images/33.png');
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	padding: 100px 0;
+
+}
+
+.contacts .left_block, .contacts .right_block{
+	position: relative;
+
+}
+
+.contacts_item{
+	margin-top: 20px;
+	display: flex;
+	align-items: center;
+	color: white;
+}
+
+.contacts_item > img{
+	width: 20px;
+	margin-right: 20px;
+}
+
+.contacts_item > a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.block_image > img{
+	width: 400px;
+}
+
+.contacts input, .contacts textarea{
+	background: none;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid #fff;
+	color: #fff;
+	padding: 15px 0;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.contacts input::placeholder, .contacts textarea::placeholder{
+	color: #fff;
+	font-style: italic;
+}
+
+.contacts textarea{
+	height: 200px;
+	resize: vertical;
+}
+
+.contacts_inputs{
+	display: flex;
+	justify-content: space-between;
+}
+
+.contacts_inputs > input{
+	width: 48%;
+}
+
+@media (max-width: 768px){
+
+	.contacts_inputs{
+		flex-wrap: wrap;
+	}
+
+	.contacts_inputs > input{
+		width: 100%;
+	}
+
+}
+
+@media (max-width: 449px){
+
+	.contacts{
+		flex-wrap: wrap;
+		padding: 100px 5%;
+		box-sizing: border-box;
+	}
+
+	.contacts .left_block, .contacts .right_block{
+		width: 100%;
+	}
+
+}
